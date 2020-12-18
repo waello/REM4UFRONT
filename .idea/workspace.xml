@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0701f7a4-bec9-499d-b276-f49f90dd86d5" name="Default Changelist" comment="fix1">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/3rdpartylicenses.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/all5.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/all5.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/dark-blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/dark-orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/dark-pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/icons/brown/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/icons/cyan/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/icons/green/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/icons/green/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/icons/green/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/icons/green/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/icons/green/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/icons/green/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/icons/green/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/icons/green/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/icons/green/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/icons/green/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/icons/green/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/icons/green/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/icons/green/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/icons/green/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/icons/green/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/icons/purple/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/icons/purple/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/icons/purple/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/icons/purple/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/icons/purple/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/icons/purple/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/icons/purple/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/icons/purple/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/icons/purple/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/icons/red/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/colors/light-black.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/datedropper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/images/layers-2x.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/images/layers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/images/ui-icons_444444_256x240.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/images/ui-icons_555555_256x240.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/images/ui-icons_777620_256x240.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/images/ui-icons_777777_256x240.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/images/ui-icons_cc0000_256x240.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/images/ui-icons_ffffff_256x240.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/invoice.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/leaflet-gesture-handling.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/leaflet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/leaflet.markercluster.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/leaflet.markercluster.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/lightcase.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/map-animation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/maps.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/nice-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/owl-carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/owl.video.play.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/slider-home18.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/src/datedropper.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/src/datedropper.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/src/datedropper.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/src/datedropper.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/src/datedropperd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/swiper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/css/timedropper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/fonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/fonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/fonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/fonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/fonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/fonts/fa-brands-400d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/fonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/fonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/fonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/fonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/fonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/fonts/fa-regular-400d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/fonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/fonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/fonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/fonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/fonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/fonts/fa-solid-900d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/fonts/fontawesome-webfont3e6e.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/fonts/fontawesome-webfont3e6e.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/fonts/fontawesome-webfont3e6e.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/fonts/fontawesome-webfont3e6e.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/fonts/fontawesome-webfont3e6e.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/fonts/lightcaseeead.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/fonts/lightcaseeead.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/fonts/lightcaseeead.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/fonts/lightcaseeead.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/bg/3d-map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/bg/bg-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/bg/bg-counter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/bg/bg-counter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/bg/bg-inner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/bg/bg-pattern-dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/bg/bg-testimonials.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/bg/bg-under.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/bg/h-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/bg/home-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/bg/info-service4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/bg/info-service6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/bg/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/bg/people.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/bg/rest-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/bg/slider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/bg/slider1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/bg/user-hand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/bg/video-poster.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/bg/video-single.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/blog/b-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/blog/b-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/blog/b-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/blog/b-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/blog/b-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/blog/b-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/blog/b-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/blog/b-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/blog/b-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/cardealer/b-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/cardealer/b-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/cardealer/b-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/cardealer/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/cardealer/bg-details.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/cardealer/bg-testimonials.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/cardealer/c-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/cardealer/c-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/cardealer/c-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/cardealer/c-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/cardealer/c-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/cardealer/c-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/cardealer/c-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/cardealer/c-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/cardealer/c-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/contact.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/freelancers/au.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/freelancers/de.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/freelancers/en.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/freelancers/fr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/freelancers/free-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/freelancers/free-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/freelancers/free-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/freelancers/free-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/freelancers/free-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/freelancers/free-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/freelancers/ind.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/freelancers/it.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/hotels/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/hotels/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/hotels/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/hotels/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/hotels/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/hotels/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/hotels/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/hotels/slider-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/hotels/slider-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/hotels/slider-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/icons/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/icons/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/icons/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/icons/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/icons/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/icons/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/icons/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/icons/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/icons/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/icons/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/icons/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/icons/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/icons/car.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/icons/i-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/icons/i-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/icons/i-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/icons/i-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/icons/icon-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/icons/icon-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/icons/quoe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/instagram/inst-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/instagram/inst-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/instagram/inst-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/instagram/inst-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/instagram/inst-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/instagram/inst-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/instagram/inst-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/instagram/inst-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/instagram/inst-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/job/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/job/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/job/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/job/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/job/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/job/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/job/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/job/b-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/job/b-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/job/b-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/job/details.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/job/home-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/job/vid.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/partners/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/partners/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/partners/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/partners/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/partners/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/partners/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/partners/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/partners/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/partners/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/partners/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/popular-listings/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/popular-listings/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/popular-listings/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/popular-listings/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/popular-listings/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/popular-listings/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/popular-listings/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/popular-listings/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/popular-listings/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/popular-listings/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/popular-listings/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/popular-places/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/popular-places/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/popular-places/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/popular-places/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/popular-places/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/popular-places/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/popular-places/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/popular-places/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/popular-places/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/popular-places/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/preloader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/slider/slider-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/slider/slider-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/slider/slider-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/slider/slider-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/slider/slider-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/team/team-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/team/team-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/team/team-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/team/team-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/testimonials/ts-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/testimonials/ts-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/testimonials/ts-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/testimonials/ts-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/testimonials/ts-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/testimonials/ts-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/top-locations/t-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/top-locations/t-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/top-locations/t-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/top-locations/t-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/top-locations/t-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/top-locations/t-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/top-locations/t-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/top-locations/t-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/top-locations/t-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/visited-cities/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/visited-cities/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/visited-cities/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/visited-cities/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/visited-cities/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/visited-cities/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/visited-cities/66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/vtc/ALLOCAB.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/vtc/BCVTC.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/vtc/BERLIN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/vtc/BOLT_TAXIFY.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/vtc/BUSINESS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/vtc/CITYBIRD.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/vtc/COMPANY.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/vtc/ECO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/vtc/FELIX.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/vtc/HAUTE_GAMME.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/vtc/HEETCH.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/vtc/KAPTEN.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/vtc/LECAB.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/vtc/LYFT.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/vtc/MARCEL_FUEL.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/vtc/MARCEL_HYBRID.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/vtc/MYSAM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/vtc/OLACAB.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/vtc/SNAPCAR.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/vtc/STANDARD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/vtc/UBER.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/vtc/URBAN_DRIVER.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/images/vtc/VAN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/Countdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/ajaxchimp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/barfiller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/color-switcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/counterup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/datedropper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/dropzone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/fitvids.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/forms-2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/forms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/imagesloaded.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/inner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/isotope.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/jquery-3.3.1.min.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/jquery.barfiller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/jquery.countdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/jquery.counterup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/jquery.waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/jqueryadd-count.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/leaflet-gesture-handling.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/leaflet-providers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/leaflet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/leaflet.markercluster.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/light.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/lightcase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/map-single.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/map-style3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/map4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/mmenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/mmenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/newsletter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/pricingbottom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/range-slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/searched.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/slick-home-1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/slick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/slick2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/slick3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/slick4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/smooth-scroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/swiper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/tether.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/timedropper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/timer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/transition.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/typed.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/ui-lement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/js/under.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/revolution/assets/coloredbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/revolution/assets/gridtile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/revolution/assets/gridtile_3x3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/revolution/assets/gridtile_3x3_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/revolution/assets/gridtile_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/revolution/assets/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/revolution/css/closedhand.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/revolution/css/layers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/revolution/css/navigation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/revolution/css/openhand.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/revolution/css/settings.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/revolution/fonts/revicons/revicons90c6.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/revolution/fonts/revicons/revicons90c6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/revolution/fonts/revicons/revicons90c6.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/revolution/fonts/revicons/revicons90c6.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/revolution/js/extensions/revolution.extension.actions.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/revolution/js/extensions/revolution.extension.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/revolution/js/extensions/revolution.extension.kenburn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/revolution/js/extensions/revolution.extension.layeranimation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/revolution/js/extensions/revolution.extension.migration.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/revolution/js/extensions/revolution.extension.navigation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/revolution/js/extensions/revolution.extension.parallax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/revolution/js/extensions/revolution.extension.slideanims.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/revolution/js/extensions/revolution.extension.video.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/revolution/js/jquery.themepunch.revolution.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/revolution/js/jquery.themepunch.tools.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/webfonts/fa-brands-400d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/webfonts/fa-regular-400d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/assets/webfonts/fa-solid-900d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/main-es2015.02b5433408b626ced695.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/main-es5.02b5433408b626ced695.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/polyfills-es2015.95bb65e853d2781ac3bd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/polyfills-es5.341d48ffc88eaeae911d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/runtime-es2015.409e6590615fb48d139f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/runtime-es5.409e6590615fb48d139f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/VTC-Comparator-Front/styles.08883a84e53deffd02fc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_redirects" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrainks\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectId" id="1lp2t1d2QKrxeqNkhnoMgpPZ8CM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.4.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.19.9" />
+    <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/node_modules/protractor" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrainks\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E2E Tests (VTC-Comparator-Front)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-package value="$PROJECT_DIR$/node_modules/protractor" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Angular Application" />
+      <item itemvalue="Node.js.server.js" />
+      <item itemvalue="npm.Angular CLI Server" />
+      <item itemvalue="Protractor.E2E Tests (VTC-Comparator-Front)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.server.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0701f7a4-bec9-499d-b276-f49f90dd86d5" name="Default Changelist" comment="" />
+      <created>1608279922539</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608279922539</updated>
+      <workItem from="1608279926265" duration="4631000" />
+      <workItem from="1608284628004" duration="62000" />
+      <workItem from="1608327015576" duration="1093000" />
+      <workItem from="1608328143810" duration="2145000" />
+    </task>
+    <task id="LOCAL-00001" summary="fix1">
+      <created>1608280309318</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608280309318</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix1">
+      <created>1608283159483</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608283159483</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix1">
+      <created>1608283463083</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608283463083</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix1">
+      <created>1608283827770</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608283827770</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix1">
+      <created>1608283936558</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608283936558</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix1">
+      <created>1608284288874</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608284288875</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix1">
+      <created>1608284716497</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608284716497</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix1">
+      <created>1608285248360</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608285248360</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fix1">
+      <created>1608285667787</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608285667787</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix1">
+      <created>1608286194396</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608286194396</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix1">
+      <created>1608286479516</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608286479516</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix1">
+      <created>1608286790996</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608286790996</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix1">
+      <created>1608287150908</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608287150908</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix1">
+      <created>1608287446711</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608287446711</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix1">
+      <created>1608287662431</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1608287662431</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix1">
+      <created>1608287752058</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1608287752058</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fix1">
+      <created>1608288205843</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1608288205843</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fix1">
+      <created>1608288838149</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1608288838149</updated>
+    </task>
+    <task id="LOCAL-00019" summary="fix1">
+      <created>1608289104393</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1608289104393</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fix1">
+      <created>1608289808522</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1608289808522</updated>
+    </task>
+    <task id="LOCAL-00021" summary="fix1">
+      <created>1608289958498</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1608289958499</updated>
+    </task>
+    <task id="LOCAL-00022" summary="fix1">
+      <created>1608290586049</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1608290586049</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fix1">
+      <created>1608290616534</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1608290616534</updated>
+    </task>
+    <task id="LOCAL-00024" summary="fix1">
+      <created>1608291388694</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1608291388694</updated>
+    </task>
+    <task id="LOCAL-00025" summary="fix1">
+      <created>1608327221965</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1608327221965</updated>
+    </task>
+    <task id="LOCAL-00026" summary="fix1">
+      <created>1608328412867</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1608328412867</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix1" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608287893317">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1608287893317" />
+    <state x="527" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608330297945">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="527" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1608330297945" />
+    <state width="746" height="210" key="GridCell.Tab.0.bottom" timestamp="1608328132764">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608328132764" />
+    <state width="746" height="210" key="GridCell.Tab.0.center" timestamp="1608328132764">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608328132764" />
+    <state width="746" height="210" key="GridCell.Tab.0.left" timestamp="1608328132764">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608328132764" />
+    <state width="746" height="210" key="GridCell.Tab.0.right" timestamp="1608328132764">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608328132764" />
+    <state x="407" y="174" key="MultipleFileMergeDialog" timestamp="1608327266412">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="407" y="174" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1608327266412" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1608328434985">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608328434985" />
+    <state x="550" y="146" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1608329951671">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="550" y="146" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.824@0.0.1536.824" timestamp="1608329951671" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608330000362">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1608330000362" />
+    <state x="478" y="145" width="579" height="534" key="find.popup" timestamp="1608329298601">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1608329298601" />
+  </component>
+</project>

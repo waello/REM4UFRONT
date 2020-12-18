@@ -6,7 +6,7 @@ const app = express();
 app.use(express.static('./public'));
 
 app.get('*', function(req, res) {
-  res.sendfile('./build/main.html');
+  res.sendfile('./public/main.html');
 });
 
 app.listen(process.env.PORT || 8080);

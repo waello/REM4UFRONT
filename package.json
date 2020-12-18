@@ -1,5 +1,5 @@
 {
-  "name": "vtc-comparator-front",
+  "name": "vtc",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

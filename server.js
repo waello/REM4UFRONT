@@ -1,15 +1,14 @@
 const express = require('express');
-const app = express();
 const path = require('path');
+const app = express();
 
-app.use(express.static(__dirname + '/dist'));
+// Serve static files....
+app.use(express.static(__dirname + '/dist/vtc-comparator-front'));
 
-app.listen(process.env.PORT || 8080);
-
-//Path Location Strategy
-
+// Send all requests to index.html
 app.get('/*', function(req, res) {
-  res.sendFile(path.join(__dirname + '/dist/index.html'));
-})
+  res.sendFile(path.join(__dirname + '/dist/vtc-comparator-front/index.html'));
+});
 
-console.log('Console listening!');
+// default Heroku PORT
+app.listen(process.env.PORT || 3000);

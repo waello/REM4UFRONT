@@ -2,10 +2,9 @@
   "name": "vtc-comparator-front",
   "version": "0.0.0",
   "scripts": {
-    "heroku-postbuild": "ng build --prod",
-
+    "start:prod": "node server.js",
     "ng": "ng",
-    "start": "node server.js",
+    "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -13,9 +12,6 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/cli": "~9.0.2",
-    "@angular/compiler-cli": "~9.0.1",
-
     "@agm/core": "^3.0.0-beta.0",
     "@angular/animations": "^9.0.7",
     "@angular/common": "~9.0.1",
@@ -41,12 +37,12 @@
     "rxjs": "~6.5.4",
     "save": "^2.4.0",
     "tslib": "^1.10.0",
-    "zone.js": "~0.10.2",
-    "typescript": "~3.7.5"
-
+    "zone.js": "~0.10.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.1000.7",
+    "@angular/cli": "~9.0.2",
+    "@angular/compiler-cli": "~9.0.1",
     "@angular/language-service": "~9.0.1",
     "@types/googlemaps": "^3.39.13",
     "@types/jasmine": "~3.5.0",
@@ -62,10 +58,7 @@
     "karma-jasmine-html-reporter": "^1.4.2",
     "protractor": "~5.4.3",
     "ts-node": "~8.3.0",
-    "tslint": "~5.18.0"
-  },
-  "engines": {
-    "node": "12.4.0",
-    "npm": "6.14.6"
+    "tslint": "~5.18.0",
+    "typescript": "~3.7.5"
   }
 }

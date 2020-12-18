@@ -1,0 +1,371 @@
+<section class="listings-list popular full featured portfolio blog">
+  <div class="container">
+    <ngx-spinner
+      bdColor
+      bdColor="rgba(0, 0, 0, 0.8)"
+      size="medium"
+      color="#fff"
+      type="timer"
+      [fullScreen]="true"
+    ><p style="color: white">Loading...</p></ngx-spinner
+    >
+    <agm-map
+      [style.height.px]="500"
+      [latitude]="departureLocation?.latitude || 48.8534"
+      [longitude]="departureLocation?.longitude || 2.3488"
+    >
+      <agm-marker
+        [latitude]="departureLocation?.latitude"
+        [longitude]="departureLocation?.longitude"
+        [label]="'D'"
+      ></agm-marker>
+      <agm-marker
+        [latitude]="arrivalLocation?.latitude"
+        [longitude]="arrivalLocation?.longitude"
+        [label]="'A'"
+      ></agm-marker>
+    </agm-map>
+    <br />
+    <div *ngIf="offers.length > 0; then offersExists; else noOffers"></div>
+
+    <ng-template #offersExists>
+      <div class="property-location mp">
+        <div class="departments-details">
+          <h5 class="mb-4">Trip Details</h5>
+          <div class="row">
+            <div class="col-md-12 dep-list-1">
+              <!-- <div class="depar-title">
+                            <h4 class="mt-1 ml-2">Menu</h4>
+                            <h4 class="mt-1 mr-2">Price</h4>
+                        </div> -->
+              <div class="depart-list">
+                <ul class="mt-4 ml-4 mb-0">
+                  <li>Lieu de départ</li>
+                  <li>Lieu d'arrivée</li>
+                  <li>Date de départ</li>
+                  <li>Temps estimé</li>
+                  <li>Distance estimée</li>
+                </ul>
+                <ul class="mt-4 mr-4 mb-0">
+                  <li>{{ departureLocation.address }}</li>
+                  <li>{{ arrivalLocation.address }}</li>
+                  <li>{{ date | date: "medium" }}</li>
+                  <li>{{ estimatedTime | time }}</li>
+                  <li>{{ estimatedDistance }} Km</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div *ngIf="immediate" class="row">
+        <div
+          class="col-lg-3 col-md-6 col-sm-6"
+          style="display: flex; justify-content: center"
+        >
+          <a
+            class="btn btn-yellow"
+            style="margin: 5px; width: 60%"
+            (click)="orderByDelay()"
+          >Délais</a
+          >
+        </div>
+        <br />
+        <div
+          class="col-lg-3 col-md-6 col-sm-6"
+          style="display: flex; justify-content: center"
+        >
+          <a
+            class="btn btn-yellow"
+            style="margin: 5px; width: 60%"
+            (click)="orderByPrice()"
+          >Prix</a
+          >
+        </div>
+        <br />
+        <div
+          class="col-lg-3 col-md-6 col-sm-6"
+          style="display: flex; justify-content: center"
+        >
+          <a
+            class="btn btn-yellow"
+            style="margin: 5px; width: 60%"
+            (click)="orderByComfort()"
+          >Comfort</a
+          >
+        </div>
+        <br />
+        <!-- Single category -->
+        <div
+          class="col-lg-3 col-md-6 col-sm-6"
+          style="display: flex; justify-content: center"
+        >
+          <a
+            class="btn btn-yellow"
+            style="margin: 5px; width: 60%"
+            (click)="orderByCO2Emission()"
+          >émission co2</a
+          >
+        </div>
+      </div>
+
+      <div *ngIf="immediate == null || !immediate" class="row">
+        <div
+          class="col-lg-4 col-md-6 col-sm-6"
+          style="display: flex; justify-content: center"
+        >
+          <a
+            class="btn btn-yellow"
+            style="margin: 5px; width: 60%"
+            (click)="orderByPrice()"
+          >Prix</a
+          >
+        </div>
+        <br />
+        <!-- Single category -->
+        <div
+          class="col-lg-4 col-md-6 col-sm-6"
+          style="display: flex; justify-content: center"
+        >
+          <a
+            class="btn btn-yellow"
+            style="margin: 5px; width: 60%"
+            (click)="orderByComfort()"
+          >Comfort</a
+          >
+        </div>
+        <br />
+        <!-- Single category -->
+        <div
+          class="col-lg-4 col-md-6 col-sm-6"
+          style="display: flex; justify-content: center"
+        >
+          <a
+            class="btn btn-yellow"
+            style="margin: 5px; width: 60%"
+            (click)="orderByCO2Emission()"
+          >émission co2</a
+          >
+        </div>
+      </div>
+      <br /><br />
+
+      <div class="row featured portfolio-items" style="background: white; margin: 10px"
+           *ngFor="let offer of offers | paginate: { itemsPerPage: 5, currentPage: page } " (click)="function(offer)">
+
+        <div class="item col-lg-3 col-md-12 col-xs-12 landscapes sale pr-0 pb-0 align-content-center"
+             style="margin: auto; height: 100%;width: 100%;display: flex;justify-content: center;">
+          <div class="project-single mb-0 bb-0">
+            <div class="project-inner project-head">
+              <div class="homes">
+                <!-- homes img -->
+                <!--                    <div class="homes-price">-->
+                <!--                      <ul class="starts text-left mb-0">-->
+                <!--                        <li class="mb-0"><i class="fa fa-star"></i></li>-->
+                <!--                        <li class="mb-0"><i class="fa fa-star"></i></li>-->
+                <!--                        <li class="mb-0"><i class="fa fa-star"></i></li>-->
+                <!--                        <li class="mb-0"><i class="fa fa-star"></i></li>-->
+                <!--                        <li class="mb-0"><i class="fa fa-star"></i></li>-->
+                <!--                        <li class="ml-1">( 6 Reviews )</li>-->
+                <!--                      </ul>-->
+                <!--                    </div>-->
+                <img *ngIf="immediate"
+                  src="assets/images/vtc/{{ offer.platformVTC }}.jpg"
+                  onError="this.src='assets/images/vtc/COMPANY.jpg';"
+                  alt="provider's image"
+                  class="img-responsive"
+                  style="height: 100%; width: 100%"
+                />
+                <img *ngIf="!immediate"
+                  src="assets/images/vtc/{{ offer.vehicle.comfort }}.png"
+                  alt="provider's image"
+                  class="img-responsive"
+                  style="height: 100%; width: 100%"
+                />
+                <div class="overlay"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- homes content -->
+        <div class="col-lg-3 col-md-12 homes-content pb-0 mb-44" >
+          <!-- homes address -->
+          <div class="enty">
+            <h3 class="mb-4">Chauffeur et Vehicule</h3>
+            <ul class="homes-list clearfix">
+              <li *ngIf="offer.driver?.name" style="display: inline;">
+                <i class="fa fa-user"></i>
+                <span>Nom : {{ offer.driver.name }}</span>
+              </li>
+              <li *ngIf="offer.driver?.phoneNumber" style="display: inline;">
+                <i class="fa fa-mobile"></i>
+                <span>Numéro de téléphone : {{ offer.driver.phoneNumber }}</span>
+              </li>
+              <li *ngIf="offer.vehicle?.carBrand" style="display: inline;">
+                <i class="fa fa-car"></i>
+                <span>Marque : {{ offer.vehicle.carBrand }}</span>
+              </li>
+              <li *ngIf="offer.vehicle?.comfort" style="display: inline;">
+                <i class="fa fa-car"></i>
+                <span  [ngStyle]="{'font-weight': (sort=='Comfort') ? 'bold' : 'normal',
+                'font-size': (sort=='Comfort') ? '110%' : '100%',
+                'color': (sort=='Comfort') ? 'green' : 'black'}">Comfort : {{ offer.vehicle.comfort }}</span>
+              </li>
+              <li *ngIf="offer.vehicle?.seats" style="display: inline;">
+                <i class="fa fa-car"></i>
+                <span>Nombre de places : {{ offer.vehicle.seats }}</span>
+              </li>
+              <li *ngIf="offer.platformVTC" style="display: inline;">
+                <i class="fa fa-car"></i>
+                <span>opérateur : {{ offer.platformVTC }}</span>
+              </li>
+              <li *ngIf="offer.VTCProvidedEstimatedTime" style="display: inline;">
+                <i class="fa fa-road"><br></i>
+                <span>date arrivé:{{addDays(date,offer.VTCProvidedEstimatedTime/60,offer)| date: "short" }}</span>
+              </li>
+              <li *ngIf="!offer.VTCProvidedEstimatedTime" style="display: inline;">
+                <i class="fa fa-road"><br></i>
+                <span>date arrivé :{{addDays(date,estimatedTime/60,offer)| date: "short" }} </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-12 homes-content pb-0 mb-44">
+          <!-- homes address -->
+          <div class="enty" >
+            <h3 class="mb-4">Vehicule</h3>
+            <ul class="homes-list clearfix">
+              <li *ngIf="offer.vehicle?.luggage" style="display: inline;">
+                <i class="fa fa-car"></i>
+                <span>Baggage : {{ offer.vehicle.luggage }}</span>
+              </li>
+              <li *ngIf="offer.vehicle?.carSeat" style="display: inline;">
+                <i class="fa fa-car"></i>
+                <span>Siège : {{ offer.vehicle.carSeat ? 'Oui':'Non' }}</span>
+              </li>
+              <li *ngIf="offer.vehicle?.seatBooster" style="display: inline;">
+                <i class="fa fa-car"></i>
+                <span>Siège d'appoint : {{ offer.vehicle.seatBooster ? 'Oui':'Non' }}</span>
+              </li>
+              <li *ngIf="offer.vehicle?.co2Emission" style="display: inline;">
+                <i class="fa fa-car"></i>
+                <span  [ngStyle]="{'font-weight': (sort=='CO2Emission') ? 'bold' : 'normal',
+                'font-size': (sort=='CO2Emission') ? '110%' : '100%',
+                'color': (sort=='CO2Emission') ? 'green' : 'black'}">Émission CO<sub>2</sub> : {{ offer.vehicle.co2Emission * estimatedDistance | number :'1.0-2' }} g/pers.</span>
+              </li>
+              <li *ngIf="offer.waitingTime && immediate" style="display: inline;">
+                <i class="fas fa-stopwatch"></i>
+                <span [ngStyle]="{'font-weight': (sort=='Delay') ? 'bold' : 'normal',
+                'font-size': (sort=='Delay') ? '110%' : '100%',
+                'color': (sort=='Delay') ? 'green' : 'black'}">Temps d'attente : {{ offer.waitingTime * 60 | time }}</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-12 homes-content pb-0 mb-44">
+          <!-- homes address -->
+          <div class="enty">
+
+            <h3 class="mb-4">Prix</h3>
+            <ul class="homes-list clearfix">
+              <li *ngIf="offer.VTCProvidedEstimatedTime" style="display: inline;">
+                <i class="fas fa-stopwatch"></i>
+                <span>Temps estimé : {{ offer.VTCProvidedEstimatedTime | time }}</span>
+              </li>
+              <li *ngIf="!offer.VTCProvidedEstimatedTime" style="display: inline;">
+                <i class="fas fa-stopwatch"></i>
+                <span>Temps estimé : {{ estimatedTime | time }}</span>
+              </li>
+
+              <li *ngIf="offer.VTCProvidedEstimatedDistance" style="display: inline;">
+                <i class="fa fa-road"></i>
+                <span>Distance estimée : {{ offer.VTCProvidedEstimatedDistance }}</span>
+              </li>
+              <li *ngIf="offer.VTCProvidedDepartureLocation" style="display: inline;">
+                <i class="fa fa-map-marker"></i>
+                <span>Lieu de départ : {{ offer.VTCProvidedDepartureLocation.address }}</span>
+              </li>
+              <li *ngIf="offer.VTCProvidedArrivalLocation" style="display: inline;">
+                <i class="fa fa-map-marker"></i>
+                <span>Lieu d'arrivée : {{ offer.VTCProvidedArrivalLocation.address}}</span>
+              </li>
+              <li *ngIf="offer.price?.unitAmount" style="display: inline;">
+                <i class="fas fa-money-bill-alt"></i>
+                <span [ngStyle]="{'font-weight': (sort=='Price') ? 'bold' : 'normal',
+                'font-size': (sort=='Price') ? '110%' : '100%',
+                'color': (sort=='Price') ? 'green' : 'black'}">Prix : {{ offer.price.unitAmount }} €</span>
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="price-properties">
+            <ul class="starts text-left mb-0">
+              <li class="mt-3">
+              </li>
+            </ul>
+            <ul class="starts text-left mb-0">
+              <li *ngIf="offer.driver?.rating >= 1" class="mb-0"><i class="fa fa-star"></i></li>
+              <li *ngIf="offer.driver?.rating >= 2" class="mb-0"><i class="fa fa-star"></i></li>
+              <li *ngIf="offer.driver?.rating >= 3" class="mb-0"><i class="fa fa-star"></i></li>
+              <li *ngIf="offer.driver?.rating >= 4" class="mb-0"><i class="fa fa-star"></i></li>
+              <li *ngIf="offer.driver?.rating >= 5" class="mb-0"><i class="fa fa-star"></i></li>
+            </ul>
+            <div *ngIf="offer.driver?.pictureUrl" class="fr-grid-thumb">
+              <div class="overall-rate"><i class="fas fa-check"></i></div>
+              <img
+                [src]="offer.driver.pictureUrl"
+                class="img-fluid mx-auto"
+                [alt]="offer.driver.name"
+              />
+            </div>
+          </div>
+
+<!--          <div class="price-properties">-->
+<!--            <ul class="starts text-left mb-0">-->
+<!--              <li class="mt-3">-->
+<!--              </li>-->
+<!--            </ul>-->
+<!--            <ul class="starts text-left mb-0">-->
+<!--              <li *ngIf="offer.driver?.rating >= 1" class="mb-0"><i class="fa fa-star"></i></li>-->
+<!--              <li *ngIf="offer.driver?.rating >= 2" class="mb-0"><i class="fa fa-star"></i></li>-->
+<!--              <li *ngIf="offer.driver?.rating >= 3" class="mb-0"><i class="fa fa-star"></i></li>-->
+<!--              <li *ngIf="offer.driver?.rating >= 4" class="mb-0"><i class="fa fa-star"></i></li>-->
+<!--              <li *ngIf="offer.driver?.rating >= 5" class="mb-0"><i class="fa fa-star"></i></li>-->
+<!--            </ul>-->
+<!--            <div class="fr-grid-thumb">-->
+<!--            </div>-->
+<!--          </div>-->
+        </div>
+      </div>
+      <div style="margin: auto;
+            width: 100%;
+            display: flex;
+            justify-content: center;">
+        <pagination-controls
+          (pageChange)="page = $event"
+          previousLabel=""
+          nextLabel=""
+        ></pagination-controls>
+      </div>
+    </ng-template>
+
+    <ng-template #noOffers>
+      <div class="notification notice" *ngIf="!loading">
+        <p>
+          Nous n’avons pas pu trouver des offres . Essayez de modifier les
+          paramètres de votre recherche..
+        </p>
+        <a class="close"></a>
+
+        <a href="#">
+          <span class="box">
+            <i class="fas fa-plane"></i>
+            <span>Travel</span>
+          </span>
+        </a>
+      </div>
+    </ng-template>
+  </div>
+</section>

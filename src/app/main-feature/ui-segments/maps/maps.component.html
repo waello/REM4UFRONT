@@ -1,0 +1,12 @@
+<agm-map [style.height.px]="500" [latitude]="latitudeDeparture" [longitude]="longitudeDeparture">
+  <agm-marker
+    [latitude]="latitudeDeparture"
+    [longitude]="longitudeDeparture"
+    [label]="'D'"
+  ></agm-marker>
+  <agm-marker
+    [latitude]="latitudeArrival"
+    [longitude]="longitudeArrival"
+    [label]="'A'"
+  ></agm-marker>
+</agm-map>

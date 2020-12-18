@@ -1,0 +1,356 @@
+<section class="listings-full-grid featured popular portfolio blog">
+  <div class="container">
+    <ngx-spinner
+      bdColor
+      bdColor="rgba(0, 0, 0, 0.8)"
+      size="medium"
+      color="#fff"
+      type="timer"
+      [fullScreen]="true"
+    ><p style="color: white">Loading...</p></ngx-spinner
+    >
+    <agm-map
+      [style.height.px]="500"
+      [latitude]="departureLocation?.latitude || 48.8534"
+      [longitude]="departureLocation?.longitude || 2.3488"
+    >
+      <agm-marker
+        [latitude]="departureLocation?.latitude"
+        [longitude]="departureLocation?.longitude"
+        [label]="'D'"
+      ></agm-marker>
+      <agm-marker
+        [latitude]="arrivalLocation?.latitude"
+        [longitude]="arrivalLocation?.longitude"
+        [label]="'A'"
+      ></agm-marker>
+    </agm-map>
+    <br />
+
+    <div *ngIf="offers.length > 0; then offersExists; else noOffers"></div>
+    <ng-template #offersExists>
+      <div class="property-location mp">
+        <div class="departments-details">
+          <h5 class="mb-4">Trip Details</h5>
+          <div class="row">
+            <div class="col-md-12 dep-list-1">
+              <!-- <div class="depar-title">
+                        <h4 class="mt-1 ml-2">Menu</h4>
+                        <h4 class="mt-1 mr-2">Price</h4>
+                    </div> -->
+              <div class="depart-list">
+                <ul class="mt-4 ml-4 mb-0">
+                  <li>Lieu de départ</li>
+                  <li>Lieu d'arrivée</li>
+                  <li>Date</li>
+                  <li>Temps estimé</li>
+                  <li>Distance estimée</li>
+                </ul>
+                <ul class="mt-4 mr-4 mb-0">
+                  <li>{{ departureLocation.address }}</li>
+                  <li>{{ arrivalLocation.address }}</li>
+                  <li>{{ date | date: "medium" }}</li>
+                  <li>{{ estimatedTime | time }}</li>
+                  <li>{{ estimatedDistance }} Km</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="sec-title">
+            <h2><span>Choisir le tri des offres</span></h2>
+          </div>
+        </div>
+      </div>
+      <!-- /row -->
+      <div *ngIf="immediate" class="row">
+        <!-- Single category -->
+        <div
+          class="col-lg-3 col-md-6 col-sm-6"
+          style="display: flex; justify-content: center"
+        >
+          <a
+            class="btn btn-yellow"
+            style="margin: 5px; width: 60%"
+            (click)="orderByDelay()"
+          >Délais</a
+          >
+        </div>
+        <br />
+        <!-- Single category -->
+        <div
+          class="col-lg-3 col-md-6 col-sm-6"
+          style="display: flex; justify-content: center"
+        >
+          <a
+            class="btn btn-yellow"
+            style="margin: 5px; width: 60%"
+            (click)="orderByPrice()"
+          >Prix</a
+          >
+        </div>
+        <br />
+        <!-- Single category -->
+        <div
+          class="col-lg-3 col-md-6 col-sm-6"
+          style="display: flex; justify-content: center"
+        >
+          <a
+            class="btn btn-yellow"
+            style="margin: 5px; width: 60%"
+            (click)="orderByComfort()"
+          >Comfort</a
+          >
+        </div>
+        <br />
+        <!-- Single category -->
+        <div
+          class="col-lg-3 col-md-6 col-sm-6"
+          style="display: flex; justify-content: center"
+        >
+          <a
+            class="btn btn-yellow"
+            style="margin: 5px; width: 60%"
+            (click)="orderByCO2Emission()"
+          >émission co2</a
+          >
+        </div>
+      </div>
+
+      <!-- /row -->
+      <div *ngIf="immediate == null || !immediate" class="row">
+        <!-- Single category -->
+        <div
+          class="col-lg-4 col-md-6 col-sm-6"
+          style="display: flex; justify-content: center"
+        >
+          <a
+            class="btn btn-yellow"
+            style="margin: 5px; width: 60%"
+            (click)="orderByPrice()"
+          >Prix</a
+          >
+        </div>
+        <br />
+        <!-- Single category -->
+        <div
+          class="col-lg-4 col-md-6 col-sm-6"
+          style="display: flex; justify-content: center"
+        >
+          <a
+            class="btn btn-yellow"
+            style="margin: 5px; width: 60%"
+            (click)="orderByComfort()"
+          >Comfort</a
+          >
+        </div>
+        <br />
+        <!-- Single category -->
+        <div
+          class="col-lg-4 col-md-6 col-sm-6"
+          style="display: flex; justify-content: center"
+        >
+          <a
+            class="btn btn-yellow"
+            style="margin: 5px; width: 60%"
+            (click)="orderByCO2Emission()"
+          >émission co2</a
+          >
+        </div>
+      </div>
+      <br /><br />
+      <!-- /row -->
+      <!-- Block heading Start-->
+      <div class="block-heading">
+        <!--        <div class="row">-->
+        <!--          <div class="col-lg-6 col-md-5 col-2">-->
+        <!--            <h4>-->
+        <!--              <span class="heading-icon">-->
+        <!--                <i class="fa fa-th-list"></i>-->
+        <!--              </span>-->
+        <!--              <span class="hidden-sm-down"> </span>-->
+        <!--            </h4>-->
+        <!--          </div>-->
+        <!--          <div class="col-lg-6 col-md-7 col-10 cod-pad mt-22">-->
+        <!--            <div class="sorting-options">-->
+        <!--              <select class="sorting" (change)="onChange($event.target.value)">-->
+        <!--                <option value="1">Ascendant</option>-->
+        <!--                <option value="2">Descandant</option>-->
+        <!--              </select>-->
+        <!--            </div>-->
+        <!--          </div>-->
+        <!--        </div>-->
+      </div>
+      <!-- Block heading end -->
+      <div class="row popular featured portfolio-items">
+        <div
+          class="item col-lg-4 col-md-6 col-xs-12"
+          *ngFor="
+            let offer of offers
+              | paginate: { itemsPerPage: 9, currentPage: page }
+          "
+        >
+          <div class="project-single">
+            <div class="project-inner project-head">
+              <div class="homes">
+                <img
+                  src="assets/images/vtc/{{ offer.platformVTC }}.jpg"
+                  onError="this.src='assets/images/vtc/COMPANY.jpg';"
+                  alt="provider's image"
+                  class="img-responsive"
+                  style="height: 200px; width: 100%"
+                />
+                <div class="overlay"></div>
+              </div>
+              <div class="fr-grid-thumb">
+                <img
+                  [src]="offer.driver.pictureUrl"
+                  class="img-fluid mx-auto"
+                  [alt]="offer.driver.name"
+                />
+              </div>
+            </div>
+            <table class="basic-table">
+              <tbody>
+              <tr *ngIf="offer.driver?.name || offer.driver?.phoneNumber">
+                <th>Chauffeur</th>
+                <th></th>
+              </tr>
+              <tr *ngIf="offer.driver?.name">
+                <td data-label="Column 1">Nom</td>
+                <td data-label="Column 2">{{ offer.driver.name }}</td>
+              </tr>
+              <tr *ngIf="offer.driver?.phoneNumber">
+                <td data-label="Column 1">Numéro de téléphone</td>
+                <td data-label="Column 2">{{ offer.driver.phoneNumber }}</td>
+              </tr>
+              <tr
+                *ngIf="
+                    offer.vehicle?.carBrand ||
+                    offer.vehicle?.co2Emission ||
+                    offer.vehicle?.comfort ||
+                    offer.vehicle?.luggage ||
+                    offer.vehicle?.seatBooster ||
+                    offer.vehicle?.carSeat ||
+                    offer.vehicle?.seats
+                  "
+              >
+                <th>Vehicule</th>
+                <th></th>
+              </tr>
+              <tr *ngIf="offer.vehicle?.carBrand">
+                <td data-label="Column 1">Marque</td>
+                <td data-label="Column 2">{{ offer.vehicle.carBrand }}</td>
+              </tr>
+
+              <tr *ngIf="offer.vehicle?.co2Emission">
+                <td data-label="Column 1">Emission de co2</td>
+                <td data-label="Column 2">
+                  {{ offer.vehicle.co2Emission }} g/personne
+                </td>
+              </tr>
+              <tr *ngIf="offer.vehicle?.comfort">
+                <td data-label="Column 1">Confort</td>
+                <td data-label="Column 2">{{ offer.vehicle.comfort }}</td>
+              </tr>
+              <tr *ngIf="offer.vehicle?.luggage">
+                <td data-label="Column 1">Baggage</td>
+                <td data-label="Column 2">{{ offer.vehicle.luggage }}</td>
+              </tr>
+              <tr *ngIf="offer.vehicle?.seatBooster">
+                <td data-label="Column 1">Siège d'appoint</td>
+                <td data-label="Column 2">{{ offer.vehicle.seatBooster }}</td>
+              </tr>
+              <tr *ngIf="offer.vehicle?.carSeat">
+                <td data-label="Column 1">Siège</td>
+                <td data-label="Column 2">{{ offer.vehicle.carSeat }}</td>
+              </tr>
+              <tr *ngIf="offer.vehicle?.seats">
+                <td data-label="Column 1">Nombre de places</td>
+                <td data-label="Column 2">{{ offer.vehicle.seats }}</td>
+              </tr>
+              </tbody>
+            </table>
+            <div
+              *ngIf="
+                offer.price?.unitAmount ||
+                offer.waitingTime ||
+                offer.VTCProvidedEstimatedTime ||
+                offer.VTCProvidedArrivalLocation ||
+                offer.VTCProvidedDepartureLocation ||
+                offer.VTCProvidedEstimatedDistance
+              "
+              class="homes-content"
+            >
+              <ul class="homes-list clearfix">
+                <li *ngIf="offer.price?.unitAmount">
+                  <i class="fas fa-money-bill-alt"></i>
+                  <span>{{ offer.price.unitAmount }} €</span>
+                </li>
+                <li *ngIf="offer.waitingTime && immediate">
+                  <i class="fas fa-stopwatch" aria-hidden="true"></i>
+                  <span>{{ offer.waitingTime * 60 | time }}</span>
+                </li>
+
+                <li *ngIf="offer.VTCProvidedEstimatedTime">
+                  <i class="fas fa-stopwatch" aria-hidden="true"></i>
+                  <span>{{ offer.VTCProvidedEstimatedTime }}</span>
+                </li>
+
+                <li *ngIf="offer.VTCProvidedEstimatedDistance">
+                  <i class="fas fa-road" aria-hidden="true"></i>
+                  <span>{{ offer.VTCProvidedEstimatedDistance }}</span>
+                </li>
+
+                <li *ngIf="offer.VTCProvidedDepartureLocation">
+                  <i class="fa fa-map-marker"></i>
+                  <span>{{ offer.VTCProvidedDepartureLocation.address }}</span>
+                </li>
+                <li *ngIf="offer.VTCProvidedArrivalLocation">
+                  <i class="fa fa-map-marker"></i>
+                  <span>{{ offer.VTCProvidedArrivalLocation.address }}</span>
+                </li>
+              </ul>
+              <div class="footer mt-3"></div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          style="
+            margin: auto;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+          "
+        >
+          <pagination-controls
+            (pageChange)="page = $event"
+            previousLabel=""
+            nextLabel=""
+          ></pagination-controls>
+        </div>
+      </div>
+    </ng-template>
+
+    <ng-template #noOffers>
+      <div class="notification notice" *ngIf="!loading">
+        <p>
+          Nous n’avons pas pu trouver des offres . Essayez de modifier les
+          paramètres de votre recherche..
+        </p>
+        <a class="close"></a>
+
+        <a href="#">
+          <span class="box">
+            <i class="fas fa-plane"></i>
+            <span>Travel</span>
+          </span>
+        </a>
+      </div>
+    </ng-template>
+  </div>
+</section>

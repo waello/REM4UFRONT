@@ -8,7 +8,7 @@ import { from } from "rxjs";
   providedIn: "root",
 })
 export class FlightAPIService {
-  url = "https://cors-anywhere.herokuapp.com/https://flightxml.flightaware.com/json/FlightXML2/";
+  url = "https://flightxml.flightaware.com/json/FlightXML2/";
   username = "mayssabenkahla7";
   password = "2cf3da27d2371ee185f62952cec08a51dd7543dc";
   constructor(private http: HttpClient) {}

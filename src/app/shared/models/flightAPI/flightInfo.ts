@@ -13,7 +13,7 @@ export class FlightInfo {
   filed_airspeed_kts: number;
   filed_airspeed_mach: string;
   filed_altitude: number;
-  filed_departuretime: number;
+  filed_departuretime: Timestamp<number>;
   filed_ete: string;
   filed_time: number;
   ident: string;

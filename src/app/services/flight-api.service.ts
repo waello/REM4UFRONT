@@ -13,6 +13,7 @@ export class FlightAPIService {
   password = "2cf3da27d2371ee185f62952cec08a51dd7543dc";
   constructor(private http: HttpClient) {}
   private reqHeader = new HttpHeaders({
+          "X-Requested-With": "origin",
     "Content-Type": "application/json",
     Authorization: "Basic " + btoa(this.username + ":" + this.password),
   });
